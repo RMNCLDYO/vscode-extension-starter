@@ -69,3 +69,7 @@ You can author your README using Visual Studio Code. Here are some useful editor
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+
+## Acknowledgements
+
+This starter project was created using [Yeoman](https://github.com/yeoman/yo) and the [VS Code Extension Generator](https://github.com/Microsoft/vscode-generator-code) recommended by Microsoft.
