@@ -10,12 +10,16 @@ A minimal, production-ready starter kit for building Visual Studio Code extensio
 ## Quick Start
 
 ```bash
-# Clone and setup
-git clone https://github.com/rmcnldyo/vscode-extension-starter.git my-extension && \
-cd my-extension && \
+# Clone the repository
+git clone https://github.com/rmcnldyo/vscode-extension-starter.git your-extension-name
+
+# Navigate to the project directory
+cd your-extension-name
+
+# Install dependencies
 npm install
 
-# Start development
+# Start the development server
 npm run watch
 
 # In a new terminal, launch the extension
@@ -30,20 +34,20 @@ Then:
 
 ## Table of Contents
 
-[Features](#features)
-[Prerequisites](#prerequisites)
-[Installation](#installation)
-[Development Workflow](#development-workflow)
-[Project Structure](#project-structure)
-[Testing](#testing)
-[Debugging](#debugging)
-[Packaging and Publishing](#packaging-and-publishing)
-[Extension Capabilities](#extension-capabilities)
-[Resources](#resources)
-[Contributing](#contributing)
-[License](#license)
-[Changelog](#changelog)
-[Acknowledgements](#acknowledgements)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Development Workflow](#development-workflow)
+- [Project Structure](#project-structure)
+- [Testing](#testing)
+- [Debugging](#debugging)
+- [Packaging and Publishing](#packaging-and-publishing)
+- [Extension Capabilities](#extension-capabilities)
+- [Resources](#resources)
+- [Contributing](#contributing)
+- [License](#license)
+- [Changelog](#changelog)
+- [Acknowledgements](#acknowledgements)
 
 ## Features
 
@@ -68,20 +72,7 @@ Then:
 
 You can get started in two ways: by cloning this repository or by using the Yeoman generator to create a new extension from scratch.
 
-### Option 1: Clone this Repository
-
-```bash
-# Clone the repository
-git clone https://github.com/rmcnldyo/vscode-extension-starter.git my-extension
-
-# Navigate to the project directory
-cd my-extension
-
-# Install dependencies
-npm install
-```
-
-### Option 2: Use the Yeoman Generator (as recommended by microsoft)
+### Option 1: Use the Yeoman Generator (as recommended by microsoft)
 
 #### Install the Generator
 
@@ -106,6 +97,19 @@ The generator will:
 * Template out a properly configured `package.json`
 * Import any assets required for your extension
 * Set up the extension's activation events and contribution points
+
+### Option 2: Clone this Repository
+
+```bash
+# Clone the repository
+git clone https://github.com/rmcnldyo/vscode-extension-starter.git your-extension-name
+
+# Navigate to the project directory
+cd your-extension-name
+
+# Install dependencies
+npm install
+```
 
 ### Development Setup
 
